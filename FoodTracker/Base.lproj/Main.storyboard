@@ -43,9 +43,13 @@
                                     </button>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="DefaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="IRk-0G-fcn">
                                         <rect key="frame" x="0.0" y="104.33333333333337" width="320" height="320"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="IRk-0G-fcn" secondAttribute="height" multiplier="1:1" id="QBr-Ad-elW"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="0vI-wL-jke" appends="YES" id="YIx-DU-rsE"/>
+                                        </connections>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -65,14 +69,20 @@
                     <connections>
                         <outlet property="mealNameLabel" destination="yv6-cd-rbc" id="bm8-qc-QQy"/>
                         <outlet property="nameTextField" destination="bsi-6X-y8M" id="4eQ-rS-Jk5"/>
+                        <outlet property="photoImageView" destination="IRk-0G-fcn" id="Jl3-Z0-wxf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="0vI-wL-jke">
+                    <connections>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="LQP-8b-D5b"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-79.710144927536234" y="132.88043478260872"/>
         </scene>
     </scenes>
     <resources>
-        <image name="DefaultPhoto" width="480" height="320"/>
+        <image name="DefaultPhoto" width="320" height="320"/>
     </resources>
 </document>
