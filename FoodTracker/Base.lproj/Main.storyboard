@@ -57,7 +57,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Your Meals" id="Lac-rm-ndY">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8fu-gd-O2t"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="8fu-gd-O2t">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" identifier="AddItem" id="qm2-kd-8Fz"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUQ-la-8gK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -109,6 +113,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="K2v-hj-QAF"/>
                     <connections>
                         <outlet property="nameTextField" destination="bsi-6X-y8M" id="4eQ-rS-Jk5"/>
                         <outlet property="photoImageView" destination="IRk-0G-fcn" id="Jl3-Z0-wxf"/>
