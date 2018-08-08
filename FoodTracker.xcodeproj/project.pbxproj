@@ -16,6 +16,7 @@
 		1F8648872110655B00EDBCBE /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8648862110655B00EDBCBE /* FoodTrackerUITests.swift */; };
 		1F864895211321C500EDBCBE /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F864894211321C500EDBCBE /* RatingControl.swift */; };
 		1F864897211A819100EDBCBE /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F864896211A819100EDBCBE /* Meal.swift */; };
+		1F864899211ACE5500EDBCBE /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F864898211ACE5500EDBCBE /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1F8648882110655B00EDBCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F864894211321C500EDBCBE /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		1F864896211A819100EDBCBE /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		1F864898211ACE5500EDBCBE /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,6 @@
 		1F86485A2110655900EDBCBE = {
 			isa = PBXGroup;
 			children = (
-				1F864896211A819100EDBCBE /* Meal.swift */,
 				1F8648652110655900EDBCBE /* FoodTracker */,
 				1F86487A2110655B00EDBCBE /* FoodTrackerTests */,
 				1F8648852110655B00EDBCBE /* FoodTrackerUITests */,
@@ -102,6 +103,8 @@
 		1F8648652110655900EDBCBE /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
+				1F864898211ACE5500EDBCBE /* MealTableViewCell.swift */,
+				1F864896211A819100EDBCBE /* Meal.swift */,
 				1F8648662110655900EDBCBE /* AppDelegate.swift */,
 				1F8648682110655900EDBCBE /* ViewController.swift */,
 				1F864894211321C500EDBCBE /* RatingControl.swift */,
@@ -266,6 +269,7 @@
 				1F8648692110655900EDBCBE /* ViewController.swift in Sources */,
 				1F864895211321C500EDBCBE /* RatingControl.swift in Sources */,
 				1F8648672110655900EDBCBE /* AppDelegate.swift in Sources */,
+				1F864899211ACE5500EDBCBE /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
