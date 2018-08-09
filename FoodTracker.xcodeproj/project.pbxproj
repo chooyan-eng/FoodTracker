@@ -109,12 +109,12 @@
 				1F864896211A819100EDBCBE /* Meal.swift */,
 				1F8648662110655900EDBCBE /* AppDelegate.swift */,
 				1F8648682110655900EDBCBE /* MealViewController.swift */,
+				1F86489C211AE7BD00EDBCBE /* MealTableViewController.swift */,
 				1F864894211321C500EDBCBE /* RatingControl.swift */,
 				1F86486A2110655900EDBCBE /* Main.storyboard */,
 				1F86486D2110655B00EDBCBE /* Assets.xcassets */,
 				1F86486F2110655B00EDBCBE /* LaunchScreen.storyboard */,
 				1F8648722110655B00EDBCBE /* Info.plist */,
-				1F86489C211AE7BD00EDBCBE /* MealTableViewController.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
