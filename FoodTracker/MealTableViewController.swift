@@ -20,6 +20,9 @@ class MealTableViewController: UITableViewController {
         
         // Load the sample data
         loadSampleMeals()
+        
+        // Use the edit button item provided by the table view controller.
+        navigationItem.leftBarButtonItem = editButtonItem
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,9 +56,6 @@ class MealTableViewController: UITableViewController {
         cell.nameLabel.text = meal.name
         cell.photoImageView.image = meal.photo
         cell.ratingControl.rating = meal.rating
-
-        
-        // Configure the cell...
 
         return cell
     }
