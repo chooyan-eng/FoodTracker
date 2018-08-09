@@ -102,6 +102,10 @@ class MealViewController: UIViewController, UITextFieldDelegate,
         present(imagePickerController, animated: true, completion: nil)
     }
     
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     //MARK: Private Methods
     private func updateSaveButtonState() {
         // Disable the Save button if the text field is empty.
